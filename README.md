@@ -1,2 +1,5 @@
-# java-L1
-this is the first program
+public class samplehello{
+      public static void main(string[] args) {
+          system.out.prinln("hello");
+      }
+}
