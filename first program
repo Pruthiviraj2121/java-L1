@@ -1,0 +1,28 @@
+package com.company;
+
+public class fly {
+    public void high(){
+        System.out.println("i am on high");
+    }
+}
+class low extends fly {
+    public void high(){
+        System.out.println("i am on low");
+    }
+}
+class med extends low {
+    public void state(){
+        System.out.println("i am on steady");
+    }
+}
+class Main{
+    public static void main(String[] args){
+        fly w = new fly();
+        low l = new low();
+        med m = new med();
+        w.high();
+        l.high();
+        m.state();
+    }
+
+}
